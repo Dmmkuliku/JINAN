@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinan | Data Science Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">JINAN<span>.DataSci</span></div>
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#toolbox">Toolbox</a></li>
+                    <li><a href="#research">Research & Projects</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </button>
+                <button class="hamburger" id="hamburger-menu" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="about">
+        <div class="terminal-loader">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-text">student@jinan:~ $ running exploratory_analysis.py</span>
+        </div>
+        <h1>Uncovering Patterns in <span class="highlight-text">Complex Datasets</span></h1>
+        <p class="hero-bio">
+            Hello, I'm Jinan. I am an aspiring Data Scientist currently specializing in statistical computation, data mining, and predictive modeling. Passionate about transforming raw mathematical theories into clean, reproducible code.
+        </p>
+        <div class="hero-buttons">
+            <a href="#research" class="btn btn-primary">View Notebooks</a>
+            <a href="#connect" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="education" class="alt-bg">
+        <div class="academic-container">
+            <h2 class="section-title">Academic Journey</h2>
+            <div class="academic-card">
+                <div class="academic-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3>BSc. in Data Science & Analytics</h3>
+                <p class="institution">University Student</p>
+                <p class="academic-details">Focusing heavily on probability distributions, regression matrices, data structures, and foundational exploratory data analysis (EDA).</p>
+                <div class="coursework-tags">
+                    <span>Linear Algebra</span>
+                    <span>Probability & Inference</span>
+                    <span>Data Mining</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="toolbox">
+        <h2 class="section-title">The Technical Toolbox</h2>
+        <div class="toolbox-layout">
+            
+            <div class="toolbox-column">
+                <h3><i class="fa-solid fa-code-branch"></i> Core Languages</h3>
+                <div class="tool-item">
+                    <div class="tool-info"><span>Python (Pandas, NumPy)</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-info"><span>R Programming (Tidyverse)</span><span>75%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-info"><span>SQL (Queries & Joins)</span><span>70%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+                </div>
+            </div>
+
+            <div class="toolbox-column">
+                <h3><i class="fa-solid fa-chart-simple"></i> Analytics Frameworks</h3>
+                <ul class="framework-list">
+                    <li><i class="fa-solid fa-square-check"></i> Jupyter Notebooks & Google Colab</li>
+                    <li><i class="fa-solid fa-square-check"></i> RStudio Desktop environment</li>
+                    <li><i class="fa-solid fa-square-check"></i> Data Visualization (Matplotlib / Seaborn / ggplot2)</li>
+                    <li><i class="fa-solid fa-square-check"></i> Git, GitHub, & Version Control for Code</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="research" class="alt-bg">
+        <h2 class="section-title">Academic & Lab Projects</h2>
+        <div class="research-grid">
+            
+            <div class="research-card">
+                <div class="research-header">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <span class="project-type">Coursework Project</span>
+                </div>
+                <h3>Exploratory Data Analysis on Global Climate Trends</h3>
+                <p>Cleaned and imputed missing values across a 10-year climate dataset using Python. Generated comprehensive data visualizations outlining temperature anomalies and regression trends.</p>
+                <div class="card-tech">
+                    <span>Python</span><span>Pandas</span><span>Seaborn</span>
+                </div>
+            </div>
+
+            <div class="research-card">
+                <div class="research-header">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <span class="project-type">Statistical Lab</span>
+                </div>
+                <h3>Predictive Student Performance Modeling</h3>
+                <p>Developed an R-based multiple linear regression analysis model evaluating study habits against academic scoring variables. Checked and corrected for multicollinearity anomalies.</p>
+                <div class="card-tech">
+                    <span>R Studio</span><span>ggplot2</span><span>Inference</span>
+                </div>
+            </div>
+
+            <div class="research-card">
+                <div class="research-header">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <span class="project-type">Database Assignment</span>
+                </div>
+                <h3>E-Commerce Relational Schema Design</h3>
+                <p>Designed a fully normalized relational database layout utilizing SQL Server. Structured complex subqueries, database joins, and indexing schemas to maximize data retrieval speed.</p>
+                <div class="card-tech">
+                    <span>MySQL</span><span>Schema Normalization</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="connect">
+        <div class="contact-box">
+            <h2>Let's Collaborate on Data</h2>
+            <p>Whether you're looking to discuss a data project, academic research, or study groups, my inbox is always open.</p>
+            
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:jinankarim.007@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <div class="quick-contact-container">
+                <a href="https://wa.me/255693516838" target="_blank" class="whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Jinan
+                </a>
+            </div>
+
+            <!-- Live Vercel API Gateway Connection Test Card -->
+            <div class="api-card">
+                <h3>Vercel Serverless Connection Diagnostic</h3>
+                <p class="card-desc">Ping your live server routing matrix directly to verify backend gateway availability.</p>
+                <button type="button" class="api-btn" onclick="pingVercelGateway()">
+                    <i class="fa-solid fa-terminal"></i> Test Live API Route
+                </button>
+                <div id="apiCheckMessage"></div>
+            </div>
+
+            <!-- Unified Contact Transmission Script Form -->
+            <form class="student-form" id="studentContact">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                </div>
+                <textarea placeholder="Message details regarding your project scope, dataset, or collaboration request..." required></textarea>
+                <button type="submit" class="submit-btn-emerald">Run Message Script <i class="fa-solid fa-terminal"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Jinan. Designed and Engineered with Data Logic.</p>
+    </footer>
+
+    <script>
+        // REPLACE THIS ADDRESS WITH JINAN'S ACTUAL LIVE PROD VERCEL URL FROM YOUR DASHBOARD
+        const VERCEL_BACKEND_URL = 'https://portfolio-backend-three-pink.vercel.app';
+
+        // 1. Theme switching logic (Obsidian Emerald to Alabaster Emerald)
+        const themeBtn = document.getElementById('theme-btn');
+        const htmlDoc = document.documentElement;
+        
+        themeBtn.addEventListener('click', () => {
+            const activeTheme = htmlDoc.getAttribute('data-theme');
+            htmlDoc.setAttribute('data-theme', activeTheme === 'dark' ? 'light' : 'dark');
+        });
+
+        // 2. Mobile responsive hamburger navigation menu toggle
+        const hamburger = document.getElementById('hamburger-menu');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+            });
+        });
+
+        // 3. Independent API Gateway Verification Routine (Ping Root Route)
+        function pingVercelGateway() {
+            const apiBox = document.getElementById('apiCheckMessage');
+            apiBox.style.display = "block";
+            apiBox.style.backgroundColor = "var(--emerald-glow)";
+            apiBox.style.color = "var(--emerald-accent)";
+            apiBox.style.border = "1px solid var(--emerald-accent)";
+            apiBox.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Initializing serverless function handshake...';
+
+            fetch(`${VERCEL_BACKEND_URL}/`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Gateway un-routable");
+                    return response.json();
+                })
+                .then(data => {
+                    apiBox.style.backgroundColor = "rgba(16, 185, 129, 0.2)";
+                    apiBox.innerHTML = `<i class="fa-solid fa-circle-check"></i> System Online: Status: "${data.status.toUpperCase()}" | Eco-System: ${data.assignment}`;
+                })
+                .catch(err => {
+                    console.error(err);
+                    apiBox.style.backgroundColor = "rgba(239, 68, 110, 0.15)";
+                    apiBox.style.color = "#ef4444";
+                    apiBox.style.border = "1px solid #ef4444";
+                    apiBox.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Route Interrupted. Check deployment logs or update VERCEL_BACKEND_URL link.';
+                });
+        }
+
+        // 4. Asynchronous Express Backend Integration Engine
+        const form = document.getElementById('studentContact');
+        
+        // Dynamic in-page status feedback banner creation
+        const responseBanner = document.createElement('div');
+        responseBanner.style.marginTop = "15px";
+        responseBanner.style.padding = "10px";
+        responseBanner.style.borderRadius = "4px";
+        responseBanner.style.fontWeight = "700";
+        responseBanner.style.fontSize = "0.85rem";
+        responseBanner.style.display = "none";
+        form.appendChild(responseBanner);
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            
+            // Activate loading visual state matching emerald portfolio theme configuration
+            responseBanner.style.display = "block";
+            responseBanner.style.backgroundColor = "var(--emerald-glow)";
+            responseBanner.style.color = "var(--emerald-accent)";
+            responseBanner.style.border = "1px solid var(--emerald-accent)";
+            responseBanner.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Compiling transmission payload data...';
+
+            const payload = {
+                name: form.querySelector('input[type="text"]').value,
+                email: form.querySelector('input[type="email"]').value,
+                message: form.querySelector('textarea').value
+            };
+
+            fetch(`${VERCEL_BACKEND_URL}/api/contact`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(async (response) => {
+                if (response.ok) {
+                    responseBanner.style.backgroundColor = "rgba(16, 185, 129, 0.15)";
+                    responseBanner.style.color = "var(--emerald-accent)";
+                    responseBanner.style.border = "1px solid var(--emerald-accent)";
+                    responseBanner.innerHTML = '<i class="fa-solid fa-circle-check"></i> Output Success: Message script saved to Jinan\'s express node ecosystem!';
+                    form.reset();
+                } else {
+                    throw new Error("Server transmission failure response check");
+                }
+            })
+            .catch(error => {
+                console.error(error);
+                responseBanner.style.backgroundColor = "rgba(239, 68, 110, 0.15)";
+                responseBanner.style.color = "#ef4444";
+                responseBanner.style.border = "1px solid #ef4444";
+                responseBanner.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Network execution timeout. Please verify backend logs.';
+            });
+        });
+    </script>
+</body>
+</html>
